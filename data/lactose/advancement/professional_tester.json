@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:adapted",
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "text": "Professional Dairy Tester",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Drink 25 milk buckets in one world.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:first_sip",
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "text": "Contains Milk",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "Eat or place cake made with regular milk.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

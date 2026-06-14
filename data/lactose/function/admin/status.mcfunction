@@ -1,0 +1,2 @@
+tellraw @s [{"text":"[Lactose Status] ","color":"aqua"},{"text":"Mode: ","color":"gray"},{"score":{"name":"$mode","objective":"lactose.config"},"color":"white"},{"text":" | Challenge: ","color":"gray"},{"score":{"name":"$challenge","objective":"lactose.config"},"color":"white"},{"text":" | Decay ticks: ","color":"gray"},{"score":{"name":"$decay","objective":"lactose.config"},"color":"white"}]
+tellraw @s [{"text":"Modes: ","color":"aqua"},{"text":"1=soft, 2=default, 3=spicy. Challenge 1=on, 0=off.","color":"gray"}]

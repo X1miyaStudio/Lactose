@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:first_sip",
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "text": "Challenge Accepted",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Drink milk while Lactose challenge mode is enabled.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

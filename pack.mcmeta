@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": {
+      "text": "Lactose - milk now has consequences.",
+      "color": "white"
+    },
+    "min_format": [94, 1],
+    "max_format": [107, 1]
+  }
+}

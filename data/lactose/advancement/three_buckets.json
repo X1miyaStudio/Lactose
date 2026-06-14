@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:first_sip",
+  "display": {
+    "icon": {
+      "id": "minecraft:bucket"
+    },
+    "title": {
+      "text": "Dairy Curious",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Drink 3 milk buckets in one world.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}
