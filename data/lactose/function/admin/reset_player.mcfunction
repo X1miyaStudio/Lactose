@@ -12,4 +12,5 @@ scoreboard players set @s lactose.free 0
 scoreboard players set @s lactose.food 0
 scoreboard players set @s lactose.cake 0
 scoreboard players set @s lactose.freecake 0
+scoreboard players set @s lactose.craft 0
 tellraw @s [{"text":"[Lactose] ","color":"aqua"},{"text":"Your Lactose stats were reset.","color":"gray"}]

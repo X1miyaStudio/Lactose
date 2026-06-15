@@ -12,8 +12,7 @@ Lactose is a vanilla-friendly Minecraft Java data pack that turns milk into a sm
 - Challenge mode for worlds where milk should be a real tradeoff.
 - Lucky digestion and dairy disaster events.
 - Cow proximity moment: drinking milk near cows unlocks a themed advancement.
-- Lactose-free milk recipe.
-- Milk-derived foods: regular cake contains lactose, while lactose-free cake does not.
+- Lactose-free milk recipe.`r`n- Command-crafted lactose-free cake that only works with Lactose-Free Milk.`r`n- Milk-derived foods: regular cake contains lactose, while lactose-free cake does not.
 - Three modes:
   - `lactose:config/soft` for casual worlds.
   - `lactose:config/default` for balanced survival.
@@ -32,7 +31,7 @@ Lactose-free milk:
 milk bucket + honey bottle + wheat + sugar
 ```
 
-Lactose-free cake uses the vanilla cake pattern, but the three milk buckets must be Lactose-Free Milk. Regular cake is treated as a milk-derived food and can trigger Lactose reactions when players eat slices. Lactose-free cake slices are safe.
+Lactose-free cake uses the vanilla cake ingredients, but Minecraft 1.21.11 recipes cannot filter milk buckets by custom data. Put 3 Lactose-Free Milk, 2 sugar, 3 wheat, and 1 egg in your inventory, then run `/function lactose:craft/lactose_free_cake`. Regular cake is treated as a milk-derived food and can trigger Lactose reactions when players eat slices. Lactose-free cake slices are safe.
 
 ## Compatibility
 
@@ -69,6 +68,7 @@ tag <player> add lactose.admin
 /function lactose:config/spicy
 /function lactose:config/challenge_on
 /function lactose:config/challenge_off
+/function lactose:craft/lactose_free_cake
 /function lactose:stats/show
 /function lactose:stats/top_milk
 /function lactose:stats/top_food

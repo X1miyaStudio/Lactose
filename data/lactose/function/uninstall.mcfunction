@@ -15,5 +15,6 @@ scoreboard objectives remove lactose.cake
 scoreboard objectives remove lactose.slice
 scoreboard objectives remove lactose.ray
 scoreboard objectives remove lactose.freecake
+scoreboard objectives remove lactose.craft
 kill @e[type=minecraft:marker,tag=lactose_cake]
 tellraw @a [{"text":"[Lactose] ","color":"aqua"},{"text":"Scoreboards removed. Remove the datapack zip/folder, then run /reload.","color":"gray"}]

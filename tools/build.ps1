@@ -21,6 +21,10 @@ try {
   $files = @(
     Join-Path $root "pack.mcmeta"
     Join-Path $root "pack.png"
+    Join-Path $root "README.md"
+    Join-Path $root "CHANGELOG.md"
+    Join-Path $root "LICENSE"
+    Join-Path $root "MODRINTH.md"
   )
 
   $files += Get-ChildItem -LiteralPath (Join-Path $root "data") -Recurse -File | ForEach-Object {

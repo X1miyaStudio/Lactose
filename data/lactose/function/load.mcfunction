@@ -16,6 +16,7 @@ scoreboard objectives add lactose.cake minecraft.used:minecraft.cake
 scoreboard objectives add lactose.slice dummy
 scoreboard objectives add lactose.ray dummy
 scoreboard objectives add lactose.freecake dummy
+scoreboard objectives add lactose.craft dummy
 
 execute unless score $mode lactose.config matches 1..3 run scoreboard players set $mode lactose.config 2
 execute unless score $challenge lactose.config matches 0..1 run scoreboard players set $challenge lactose.config 0
@@ -23,6 +24,5 @@ execute unless score $decay lactose.config matches 1.. run scoreboard players se
 scoreboard players set $lucky_mod lactose.config 13
 scoreboard players set $disaster_mod lactose.config 9
 recipe give @a lactose:lactose_free_milk
-recipe give @a lactose:lactose_free_cake
 
 tellraw @a[tag=lactose.admin] [{"text":"[Lactose] ","color":"aqua"},{"text":"Loaded. Use /function lactose:admin/help for commands.","color":"gray"}]

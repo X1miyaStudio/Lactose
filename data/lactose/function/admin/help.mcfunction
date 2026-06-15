@@ -1,4 +1,5 @@
 tellraw @s [{"text":"[Lactose Admin]","color":"aqua"},{"text":" /function lactose:config/default | soft | spicy | challenge_on | challenge_off","color":"gray"}]
+tellraw @s [{"text":"[Lactose Admin]","color":"aqua"},{"text":" /function lactose:craft/lactose_free_cake - craft safe cake from Lactose-Free Milk","color":"gray"}]
 tellraw @s [{"text":"[Lactose Admin]","color":"aqua"},{"text":" /function lactose:stats/show | top_milk | top_food | top_reaction | clear_sidebar","color":"gray"}]
 tellraw @s [{"text":"[Lactose Admin]","color":"aqua"},{"text":" /function lactose:admin/status | reset_player | reset_all | /function lactose:uninstall","color":"gray"}]
 tellraw @s [{"text":"[Lactose Admin]","color":"aqua"},{"text":" To reset another player: /execute as <player> run function lactose:admin/reset_player","color":"gray"}]

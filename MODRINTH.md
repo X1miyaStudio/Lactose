@@ -40,7 +40,7 @@ MIT
 - Added per-player lactose reactions after drinking milk.
 - Added tolerance, adaptation, anti-spam streaks, and challenge mode.
 - Added lucky digestion, dairy disaster, and cow witness events.
-- Added lactose-free milk and lactose-free cake recipes.
+- Added lactose-free milk and command-crafted lactose-free cake.
 - Regular cake is now treated as a lactose-containing milk-derived food.
 - Added soft, default, and spicy configuration modes.
 - Added expanded custom advancement tree, player stats, sidebar leaderboards, and admin helpers.
@@ -64,7 +64,7 @@ Recovering from reactions slowly builds tolerance, so long-term players can adap
 - Lucky digestion, dairy disaster, and cow witness events
 - Lactose-free milk recipe
 - Regular cake slices can trigger Lactose reactions
-- Lactose-free cake can be crafted with lactose-free milk and avoids reactions
+- Lactose-free cake can be made with `/function lactose:craft/lactose_free_cake` and avoids reactions
 - Balanced default effects: nausea, hunger, slowness, and weakness at higher reaction levels
 - Soft, default, and spicy configuration modes
 - Expanded custom advancement tree with hidden challenges
@@ -80,6 +80,7 @@ Recovering from reactions slowly builds tolerance, so long-term players can adap
 /function lactose:config/spicy
 /function lactose:config/challenge_on
 /function lactose:config/challenge_off
+/function lactose:craft/lactose_free_cake
 /function lactose:stats/show
 /function lactose:stats/top_milk
 /function lactose:stats/top_food
@@ -110,7 +111,7 @@ Lactose-free milk:
 milk bucket + honey bottle + wheat + sugar
 ```
 
-Lactose-free cake uses the vanilla cake pattern, but the three milk buckets must be Lactose-Free Milk. Regular cake contains lactose; lactose-free cake does not.
+Lactose-free cake uses the vanilla cake ingredients, but Minecraft 1.21.11 recipes cannot filter milk buckets by custom data. Put 3 Lactose-Free Milk, 2 sugar, 3 wheat, and 1 egg in your inventory, then run `/function lactose:craft/lactose_free_cake`. Regular cake contains lactose; lactose-free cake does not.
 
 ## Русское описание
 
