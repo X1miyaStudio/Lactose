@@ -1,10 +1,8 @@
 {
-  "pack": {
-    "description": {
-      "text": "Lactose - milk now has consequences.",
-      "color": "white"
-    },
-    "min_format": [94, 1],
-    "max_format": [107, 1]
-  }
+    "pack":  {
+                 "pack_format":  94.1,
+                 "min_format":  94.1,
+                 "max_format":  94.1,
+                 "description":  "X1miyaStudio // Lactose for Minecraft 1.21.11"
+             }
 }

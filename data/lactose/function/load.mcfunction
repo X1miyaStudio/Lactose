@@ -16,7 +16,6 @@ scoreboard objectives add lactose.cake minecraft.used:minecraft.cake
 scoreboard objectives add lactose.slice dummy
 scoreboard objectives add lactose.ray dummy
 scoreboard objectives add lactose.freecake dummy
-scoreboard objectives add lactose.craft dummy
 
 execute unless score $mode lactose.config matches 1..3 run scoreboard players set $mode lactose.config 2
 execute unless score $challenge lactose.config matches 0..1 run scoreboard players set $challenge lactose.config 0

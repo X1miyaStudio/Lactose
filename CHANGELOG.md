@@ -1,18 +1,11 @@
 # Changelog
 
-## 1.0.0
+## 1.0.0 — Minecraft 1.21.11 release
 
-- Rebuilt the original milk-effect concept into a complete Modrinth-ready data pack.
-- Added modern Minecraft `1.21.11` to `26.2-pre4` data pack structure.
-- Added per-player lactose reaction progression and recovery.
-- Added tolerance, adaptation, anti-spam streaks, and challenge mode.
-- Added lucky digestion, dairy disaster, cow witness, and particle feedback events.
-- Added lactose-free milk and command-crafted lactose-free cake.
-- Added lactose behavior for regular cake slices and safe slices for lactose-free cake.
-- Added soft, default, and spicy configuration modes.
-- Added expanded custom advancement tree.
-- Added player stats, sidebar leaderboards, admin helpers, and uninstall functions.
-- Added documentation, license, Modrinth copy, and release packaging.
-- Fixed Windows zip packaging so Minecraft can see data pack paths inside the archive.
-- Fixed the advancement screen background texture for Minecraft 1.21.11.
-- Fixed lactose-free cake on 1.21.11 by replacing the invalid component-filtered recipe with /function lactose:craft/lactose_free_cake.
+- Added per-player lactose reactions, tolerance, adaptation, and anti-spam streaks.
+- Added soft, default, spicy, and challenge configurations.
+- Added lucky digestion, dairy disaster, and cow-witness events.
+- Added lactose-free milk and a normal crafting-table recipe for lactose-free cake.
+- Added dairy-food behavior, advancements, statistics, leaderboards, admin tools, and uninstall support.
+- Fixed the advancement background identifier for Minecraft 1.21.11.
+- Standardized pack metadata to data pack format 94.1.
