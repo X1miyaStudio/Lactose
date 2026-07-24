@@ -1,92 +1,34 @@
 # Lactose
 
-Lactose is a vanilla-friendly Minecraft Java data pack that turns milk into a small survival system. Drinking milk builds a temporary lactose reaction, repeated drinking raises the danger, recovery improves tolerance, and players unlock a custom dairy-themed advancement tree.
+Lactose turns milk into a compact survival system. Drinking milk builds a temporary reaction, repeated drinking raises the danger, and recovery gradually improves tolerance.
 
 ## Features
 
-- Server-side only: players do not need a resource pack or mod loader.
-- Per-player milk tracking for singleplayer and multiplayer worlds.
-- Temporary reaction levels that decay over time.
-- Anti-spam streaks: drinking milk too quickly raises reactions faster.
-- Tolerance and adaptation: recovering from reactions slowly makes future milk less harsh.
-- Challenge mode for worlds where milk should be a real tradeoff.
-- Lucky digestion and dairy disaster events.
-- Cow proximity moment: drinking milk near cows unlocks a themed advancement.
-- Lactose-free milk recipe.`r`n- Command-crafted lactose-free cake that only works with Lactose-Free Milk.`r`n- Milk-derived foods: regular cake contains lactose, while lactose-free cake does not.
-- Three modes:
-  - `lactose:config/soft` for casual worlds.
-  - `lactose:config/default` for balanced survival.
-  - `lactose:config/spicy` for stronger joke reactions.
-- Expanded custom advancement tree for milk milestones, tolerance, challenge mode, cow witnesses, lucky digestion, and dairy disasters.
-- Player stats with `lactose:stats/show`.
-- Sidebar scoreboards with `lactose:stats/top_milk`, `lactose:stats/top_food`, and `lactose:stats/top_reaction`.
-- Admin helpers for status, player reset, and all-player reset.
-- Clean uninstall with `lactose:uninstall`.
+- Per-player reactions for singleplayer and multiplayer.
+- Anti-spam streaks, tolerance, adaptation, and challenge mode.
+- Soft, default, and spicy configurations.
+- Lucky digestion, dairy disaster, and cow-witness events.
+- Custom dairy advancement tree and player statistics.
+- Lactose-free milk and lactose-free cake.
 
-## Lactose-Free Recipes
+## Crafting
 
-Lactose-free milk:
+![Lactose-free crafting recipes](docs/crafting.png)
 
-```text
-milk bucket + honey bottle + wheat + sugar
-```
+Craft Lactose-Free Milk with milk, honey, wheat, and sugar. The Lactose-Free Cake uses the normal cake layout with three milk buckets and is baked directly at a crafting table.
 
-Lactose-free cake uses the vanilla cake ingredients, but Minecraft 1.21.11 recipes cannot filter milk buckets by custom data. Put 3 Lactose-Free Milk, 2 sugar, 3 wheat, and 1 egg in your inventory, then run `/function lactose:craft/lactose_free_cake`. Regular cake is treated as a milk-derived food and can trigger Lactose reactions when players eat slices. Lactose-free cake slices are safe.
+## Main Commands
 
-## Compatibility
-
-- Minecraft Java Edition `1.21.11` through the current `26.2` pre-release data pack format.
-- Data pack format range: `94.1` to `107.1`.
-
-Before publishing a new release, re-check the latest Minecraft data pack format if `26.2` has moved past pre-release 4.
+- `/function lactose:config/soft`
+- `/function lactose:config/default`
+- `/function lactose:config/spicy`
+- `/function lactose:config/challenge_on`
+- `/function lactose:stats/show`
+- `/function lactose:admin/help`
+- `/function lactose:uninstall`
 
 ## Installation
 
-1. Download `Lactose-1.0.0.zip`.
-2. Put it into your world's `datapacks` folder.
-3. Run `/reload` or restart the world/server.
+Place the ZIP in `<world>/datapacks/`, then run `/reload`.
 
-## Building
-
-Use the included build script so the zip uses forward-slash paths required by Minecraft:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File tools/build.ps1
-```
-
-Optional: tag admins with `lactose.admin` to receive the load message:
-
-```mcfunction
-tag <player> add lactose.admin
-```
-
-## Commands
-
-```mcfunction
-/function lactose:config/default
-/function lactose:config/soft
-/function lactose:config/spicy
-/function lactose:config/challenge_on
-/function lactose:config/challenge_off
-/function lactose:craft/lactose_free_cake
-/function lactose:stats/show
-/function lactose:stats/top_milk
-/function lactose:stats/top_food
-/function lactose:stats/top_reaction
-/function lactose:stats/clear_sidebar
-/function lactose:admin/help
-/function lactose:admin/status
-/function lactose:admin/reset_player
-/function lactose:admin/reset_all
-/function lactose:uninstall
-```
-
-## Русское описание
-
-Lactose - это ванильный датапак для Minecraft Java, который превращает молоко в небольшую survival-систему. Если игрок пьет молоко, у него появляется временная реакция на лактозу. Если пить слишком часто, реакция растет быстрее; если восстанавливаться, постепенно повышается переносимость.
-
-Датапак работает на сервере, не требует модов, загрузчиков или ресурспака. Есть режимы `soft`, `default`, `spicy`, отдельный challenge mode, статистика, sidebar-лидерборды, админские функции, события lucky digestion / dairy disaster, расширенная ветка достижений, безлактозное молоко и безлактозный торт.
-
-## License
-
-MIT
+Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `lactose` · MIT · X1miyaStudio
