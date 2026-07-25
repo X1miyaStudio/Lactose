@@ -31,4 +31,8 @@ Craft Lactose-Free Milk with milk, honey, wheat, and sugar. The Lactose-Free Cak
 
 Place the ZIP in `<world>/datapacks/`, then run `/reload`.
 
+<<<<<<< HEAD
 Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `lactose` · All Rights Reserved · X1miyaStudio
+=======
+Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `lactose` · MIT · X1miyaStudio
+>>>>>>> d7f3ca1 (Обновление документации (README, MODRINTH, CHANGELOG) и очистка команд администрирования для релиза датапака 1.0.0)
