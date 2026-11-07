@@ -31,4 +31,4 @@ Lactose превращает молоко в небольшую систему �
 
 Помести ZIP в `<мир>/datapacks/`, затем выполни `/reload`.
 
-Minecraft Java Edition **1.21.11** · Ванильный датапак · Namespace `lactose` · All Rights Reserved · X1miyaStudio
+Minecraft Java Edition **1.20.5 – 26.3+** · Ванильный датапак · Namespace `lactose` · All Rights Reserved · X1miyaStudio

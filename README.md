@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF88,100:062E1A&height=180&section=header&text=Lactose%20Intolerance&fontSize=42&fontColor=ffffff&fontAlignY=40" width="100%" alt="Lactose Header" />
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.20.5_--_26.3+-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
 [![Modrinth](https://img.shields.io/badge/Modrinth-Verified_Datapack-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
 [![Namespace](https://img.shields.io/badge/Namespace-lactose-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
@@ -63,7 +63,7 @@
 
 <div align="center">
 
-Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `lactose`  
+Minecraft Java Edition **1.20.5 – 26.3+** · Vanilla datapack · Namespace `lactose`  
 © 2026 **[X1miyaStudio](https://github.com/X1miyaStudio)**
 
 [![Modrinth](https://img.shields.io/badge/Modrinth-Download-00AF5C?style=flat-square&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
