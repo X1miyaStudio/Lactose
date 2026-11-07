@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:milk_bucket"
+      "item": "minecraft:milk_bucket"
     },
     "title": {
       "text": "Lactose Intolerance",
@@ -11,7 +11,7 @@
       "text": "Milk is now a risky life choice.",
       "color": "gray"
     },
-    "background": "minecraft:gui/advancements/backgrounds/husbandry",
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

@@ -2,7 +2,7 @@
   "parent": "lactose:adapted",
   "display": {
     "icon": {
-      "id": "minecraft:experience_bottle"
+      "item": "minecraft:experience_bottle"
     },
     "title": {
       "text": "Professional Dairy Tester",

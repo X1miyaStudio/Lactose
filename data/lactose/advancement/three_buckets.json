@@ -2,7 +2,7 @@
   "parent": "lactose:first_sip",
   "display": {
     "icon": {
-      "id": "minecraft:bucket"
+      "item": "minecraft:bucket"
     },
     "title": {
       "text": "Dairy Curious",

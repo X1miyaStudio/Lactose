@@ -12,5 +12,5 @@ scoreboard players set @a lactose.free 0
 scoreboard players set @a lactose.food 0
 scoreboard players set @a lactose.cake 0
 scoreboard players set @a lactose.freecake 0
-kill @e[type=minecraft:marker,tag=lactose_cake]
+kill @e[type=minecraft:area_effect_cloud,tag=lactose_cake]
 tellraw @a [{"text":"[Lactose] ","color":"aqua"},{"text":"All Lactose player stats were reset by an admin.","color":"gray"}]

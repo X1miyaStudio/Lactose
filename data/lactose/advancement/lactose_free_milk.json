@@ -2,7 +2,7 @@
   "parent": "lactose:first_sip",
   "display": {
     "icon": {
-      "id": "minecraft:milk_bucket"
+      "item": "minecraft:milk_bucket"
     },
     "title": {
       "text": "Dairy Diplomacy",

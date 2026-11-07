@@ -1,19 +1,19 @@
 {
+  "parent": "lactose:root",
   "display": {
     "icon": {
-      "id": "minecraft:milk_bucket"
+      "item": "minecraft:milk_bucket"
     },
     "title": {
-      "text": "Lactose Intolerance",
-      "color": "white"
+      "text": "Questionable Sip",
+      "color": "yellow"
     },
     "description": {
-      "text": "Milk is now a risky life choice.",
+      "text": "Drink milk and discover that it has opinions.",
       "color": "gray"
     },
-    "background": "minecraft:gui/advancements/backgrounds/husbandry",
     "frame": "task",
-    "show_toast": false,
+    "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },

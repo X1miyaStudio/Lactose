@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:first_sip",
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": {
+      "text": "Calcium Fueled",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Drink milk while a cow is close enough to judge you.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

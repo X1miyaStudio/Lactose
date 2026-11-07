@@ -2,7 +2,7 @@
   "parent": "lactose:three_buckets",
   "display": {
     "icon": {
-      "id": "minecraft:cake"
+      "item": "minecraft:cake"
     },
     "title": {
       "text": "Milk Marathon",

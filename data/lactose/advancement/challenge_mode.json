@@ -2,7 +2,7 @@
   "parent": "lactose:first_sip",
   "display": {
     "icon": {
-      "id": "minecraft:clock"
+      "item": "minecraft:clock"
     },
     "title": {
       "text": "Challenge Accepted",

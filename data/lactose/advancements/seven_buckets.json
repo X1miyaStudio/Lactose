@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:three_buckets",
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": {
+      "text": "Milk Marathon",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Drink 7 milk buckets. This is a pattern now.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

@@ -2,7 +2,7 @@
   "parent": "lactose:first_sip",
   "display": {
     "icon": {
-      "id": "minecraft:fermented_spider_eye"
+      "item": "minecraft:fermented_spider_eye"
     },
     "title": {
       "text": "Peak Dairy",

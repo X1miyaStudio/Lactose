@@ -2,7 +2,7 @@
   "parent": "lactose:first_sip",
   "display": {
     "icon": {
-      "id": "minecraft:cake"
+      "item": "minecraft:cake"
     },
     "title": {
       "text": "Contains Milk",

@@ -2,7 +2,7 @@
   "parent": "lactose:lactose_free_milk",
   "display": {
     "icon": {
-      "id": "minecraft:cake"
+      "item": "minecraft:cake"
     },
     "title": {
       "text": "Safe Slice",

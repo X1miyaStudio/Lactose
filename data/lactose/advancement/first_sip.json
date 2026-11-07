@@ -2,7 +2,7 @@
   "parent": "lactose:root",
   "display": {
     "icon": {
-      "id": "minecraft:milk_bucket"
+      "item": "minecraft:milk_bucket"
     },
     "title": {
       "text": "Questionable Sip",

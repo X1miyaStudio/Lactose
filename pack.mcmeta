@@ -1,43 +1,10 @@
 {
   "pack": {
-    "pack_format": 48,
+    "pack_format": 6,
     "supported_formats": {
-      "min_inclusive": 41,
-      "max_inclusive": 150
+      "min_inclusive": 6,
+      "max_inclusive": 30
     },
-    "min_format": 41,
-    "max_format": 150,
-    "description": "§f§lLactose §r§7| §aAll Versions (1.20.5 - 26.3+)"
-  },
-  "overlays": {
-    "entries": [
-      {
-        "formats": {
-          "min_inclusive": 41,
-          "max_inclusive": 47
-        },
-        "min_format": 41,
-        "max_format": 47,
-        "directory": "overlay_1_20_5"
-      },
-      {
-        "formats": {
-          "min_inclusive": 57,
-          "max_inclusive": 70
-        },
-        "min_format": 57,
-        "max_format": 70,
-        "directory": "overlay_1_21_2"
-      },
-      {
-        "formats": {
-          "min_inclusive": 71,
-          "max_inclusive": 150
-        },
-        "min_format": 71,
-        "max_format": 150,
-        "directory": "overlay_1_21_5"
-      }
-    ]
+    "description": "§f§lLactose Legacy §r§7| §aAll Versions (1.16.5 - 1.20.4)"
   }
 }

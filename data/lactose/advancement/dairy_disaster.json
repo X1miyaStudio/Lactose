@@ -2,7 +2,7 @@
   "parent": "lactose:severe",
   "display": {
     "icon": {
-      "id": "minecraft:tnt"
+      "item": "minecraft:tnt"
     },
     "title": {
       "text": "Dairy Disaster",

@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:seven_buckets",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_carrot"
+    },
+    "title": {
+      "text": "Dairy Adaptation",
+      "color": "green"
+    },
+    "description": {
+      "text": "Build enough tolerance that milk hurts a little less.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

@@ -2,7 +2,7 @@
   "parent": "lactose:seven_buckets",
   "display": {
     "icon": {
-      "id": "minecraft:golden_carrot"
+      "item": "minecraft:golden_carrot"
     },
     "title": {
       "text": "Dairy Adaptation",

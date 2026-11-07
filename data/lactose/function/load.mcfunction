@@ -22,6 +22,7 @@ execute unless score $challenge lactose.config matches 0..1 run scoreboard playe
 execute unless score $decay lactose.config matches 1.. run scoreboard players set $decay lactose.config 240
 scoreboard players set $lucky_mod lactose.config 13
 scoreboard players set $disaster_mod lactose.config 9
-recipe give @a lactose:lactose_free_milk
+recipe give @a lactose:crafting/lactose_free_milk
+recipe give @a lactose:crafting/lactose_free_cake
 
 tellraw @a[tag=lactose.admin] [{"text":"[Lactose] ","color":"aqua"},{"text":"Loaded. Use /function lactose:admin/help for commands.","color":"gray"}]

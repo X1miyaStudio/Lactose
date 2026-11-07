@@ -2,7 +2,7 @@
   "parent": "lactose:first_sip",
   "display": {
     "icon": {
-      "id": "minecraft:wheat"
+      "item": "minecraft:wheat"
     },
     "title": {
       "text": "Calcium Fueled",
