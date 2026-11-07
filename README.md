@@ -3,6 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF88,100:062E1A&height=180&section=header&text=Lactose%20Intolerance&fontSize=42&fontColor=ffffff&fontAlignY=40" width="100%" alt="Lactose Header" />
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.20.5_--_26.3+-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
+[![Legacy Branch](https://img.shields.io/badge/Legacy-1.16.5_--_1.20.4-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose/tree/legacy)
 [![Modrinth](https://img.shields.io/badge/Modrinth-Verified_Datapack-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
 [![Namespace](https://img.shields.io/badge/Namespace-lactose-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
@@ -13,6 +14,12 @@
 </p>
 
 </div>
+
+---
+
+> [!TIP]
+> **Ищете версию для старых версий игры?**  
+> Исходный код датапака для классических версий Minecraft (**1.16.5 – 1.20.4**) доступен в официальной ветке [**`legacy`**](https://github.com/X1miyaStudio/Lactose/tree/legacy).
 
 ---
 
