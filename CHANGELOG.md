@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.1 — Hotfix (Minecraft 26.3 compatibility)
+
+- Fixed fatal registry validation crash on Minecraft 26.3 (category: misc in lactose_free_cake recipe instead of invalid ood).
+- Cleaned up root data directory to eliminate plural/singular registry directory conflicts.
+- Added hand equipment slot checks (equipment.mainhand and equipment.offhand) for Minecraft 1.21.5 – 26.3+.
+- Fixed pack metadata supported format range in legacy editions.
+
 ## 2.0.0 — Multi-version release (1.20.5 – 26.3+)
 
 - Added full multi-version support covering Minecraft 1.20.5 through 26.3+ using dynamic data pack overlays.
