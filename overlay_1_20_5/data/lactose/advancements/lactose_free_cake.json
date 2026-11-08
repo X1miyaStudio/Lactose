@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:lactose_free_milk",
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "text": "Safe Slice",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Use lactose-free milk to bake a cake without lactose reactions.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

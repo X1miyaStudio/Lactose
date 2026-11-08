@@ -1,0 +1,26 @@
+{
+  "parent": "lactose:first_sip",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "Lucky Digestion",
+      "color": "green"
+    },
+    "description": {
+      "text": "Have milk go unexpectedly well.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

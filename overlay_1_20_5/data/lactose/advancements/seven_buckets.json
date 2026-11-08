@@ -1,19 +1,19 @@
 {
+  "parent": "lactose:three_buckets",
   "display": {
     "icon": {
-      "id": "minecraft:milk_bucket"
+      "id": "minecraft:cake"
     },
     "title": {
-      "text": "Lactose Intolerance",
-      "color": "white"
+      "text": "Milk Marathon",
+      "color": "aqua"
     },
     "description": {
-      "text": "Milk is now a risky life choice.",
+      "text": "Drink 7 milk buckets. This is a pattern now.",
       "color": "gray"
     },
-    "background": "minecraft:gui/advancements/backgrounds/husbandry",
-    "frame": "task",
-    "show_toast": false,
+    "frame": "goal",
+    "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
