@@ -29,6 +29,11 @@ Lactose превращает молоко в небольшую систему �
 
 ## Установка
 
-Помести ZIP в `<мир>/datapacks/`, затем выполни `/reload`.
+Выберите подходящую сборку (`Lactose_v2.0.1_RU.zip` или `Lactose_v2.0.1_EN.zip`) и поместите ZIP в `<мир>/datapacks/`, затем выполните `/reload`.
+
+## Ссылки
+
+- **Modrinth (Русская версия):** https://modrinth.com/datapack/lactose-intolerance-ru
+- **Modrinth (English):** https://modrinth.com/datapack/lactose-intolerance
 
 Minecraft Java Edition **1.20.5 – 26.3+** · Ванильный датапак · Namespace `lactose` · All Rights Reserved · X1miyaStudio
