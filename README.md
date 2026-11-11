@@ -6,6 +6,7 @@
 [![Legacy Branch](https://img.shields.io/badge/Legacy-1.16.5_--_1.20.4-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose/tree/legacy)
 [![Modrinth EN](https://img.shields.io/badge/Modrinth-EN-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
 [![Modrinth RU](https://img.shields.io/badge/Modrinth-RU-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance-ru)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics)
 [![Namespace](https://img.shields.io/badge/Namespace-lactose-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
 
@@ -64,7 +65,7 @@
 
 ### 📦 Installation / Установка
 
-1. Скачайте нужную версию датапака ([Modrinth EN](https://modrinth.com/datapack/lactose-intolerance) — `Lactose_v2.0.1_EN.zip`, [Modrinth RU](https://modrinth.com/datapack/lactose-intolerance-ru) — `Lactose_v2.0.1_RU.zip`; также доступны [Legacy-сборки для 1.16.5 – 1.20.4](https://github.com/X1miyaStudio/Lactose/tree/legacy)) и поместите архив в папку `<world>/datapacks/`.
+1. Скачайте нужную версию датапака ([Modrinth EN](https://modrinth.com/datapack/lactose-intolerance) — `Lactose_v2.0.1_EN.zip`, [Modrinth RU](https://modrinth.com/datapack/lactose-intolerance-ru) — `Lactose_v2.0.1_RU.zip`, [CurseForge](https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics) — EN + RU Additional Files; также доступны [Legacy-сборки для 1.16.5 – 1.20.4](https://github.com/X1miyaStudio/Lactose/tree/legacy)) и поместите архив в папку `<world>/datapacks/`.
 2. Выполните команду `/reload` в игре (или перезапустите мир).
 
 ---
@@ -76,6 +77,7 @@ Minecraft Java Edition **1.20.5 – 26.3+** · Vanilla datapack · Namespace `la
 
 [![Modrinth EN](https://img.shields.io/badge/Modrinth-EN-00AF5C?style=flat-square&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
 [![Modrinth RU](https://img.shields.io/badge/Modrinth-RU-00AF5C?style=flat-square&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance-ru)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-F16436?style=flat-square&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics)
 [![Telegram](https://img.shields.io/badge/Telegram-@X1miyaStudio-blue?style=flat-square&logo=telegram)](https://t.me/X1miyaStudio)
 [![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/pwk6X8ecNJ)
 
