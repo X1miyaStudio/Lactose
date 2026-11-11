@@ -5,6 +5,7 @@
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.16.5_--_1.20.4-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
 [![Modrinth EN](https://img.shields.io/badge/Modrinth-EN-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
 [![Modrinth RU](https://img.shields.io/badge/Modrinth-RU-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance-ru)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics)
 [![Branch](https://img.shields.io/badge/Branch-legacy-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose/tree/legacy)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
 
@@ -62,7 +63,7 @@
 
 ### 📦 Installation / Установка
 
-1. Скачайте нужную legacy-сборку ([Modrinth EN](https://modrinth.com/datapack/lactose-intolerance) — `Lactose_Legacy_v2.0.1_EN.zip`, [Modrinth RU](https://modrinth.com/datapack/lactose-intolerance-ru) — `Lactose_Legacy_v2.0.1_RU.zip`) или выберите релиз в [GitHub Releases](https://github.com/X1miyaStudio/Lactose/releases).
+1. Скачайте нужную legacy-сборку ([Modrinth EN](https://modrinth.com/datapack/lactose-intolerance) — `Lactose_Legacy_v2.0.1_EN.zip`, [Modrinth RU](https://modrinth.com/datapack/lactose-intolerance-ru) — `Lactose_Legacy_v2.0.1_RU.zip`, [CurseForge](https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics) — EN + RU Additional Files) или выберите релиз в [GitHub Releases](https://github.com/X1miyaStudio/Lactose/releases).
 2. Поместите его в папку `<мир>/datapacks/`.
 3. Выполните команду `/reload` в игре.
 
