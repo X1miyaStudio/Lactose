@@ -3,7 +3,8 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF88,100:062E1A&height=180&section=header&text=Lactose%20(Legacy)&fontSize=42&fontColor=ffffff&fontAlignY=40" width="100%" alt="Lactose Legacy Header" />
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.16.5_--_1.20.4-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
-[![Modrinth](https://img.shields.io/badge/Modrinth-Verified_Datapack-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
+[![Modrinth EN](https://img.shields.io/badge/Modrinth-EN-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
+[![Modrinth RU](https://img.shields.io/badge/Modrinth-RU-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance-ru)
 [![Branch](https://img.shields.io/badge/Branch-legacy-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose/tree/legacy)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
 
@@ -25,7 +26,7 @@
 
 - 👤 **Индивидуальная физиология** — раздельный расчёт реакций для каждого игрока.
 - ⚡ **Динамическая адаптация** — постепенное привыкание, повышение толерантности при регулярном потреблении.
-- 🌶 **Гибкие профили сложности** — режимы `soft`, `default`, `spicy` и `challenge mode`.
+- 🌶 **Гибкие профили сложности** — режимы `soft`, `default`, `spicy` и соревновательный `challenge mode`.
 - 🎲 **Случайные события** — удачное усвоение (*lucky digestion*), молочные катастрофы и реакции коров.
 - 🏆 **Кастомное древо достижений** — адаптировано под синтаксис 1.16.5–1.20.4 (`item` вместо `id`, фон `husbandry.png`).
 - 🍰 **Безлактозная кулинария** — нативный крафт безлактозного молока и торта на обычном верстаке.
@@ -61,7 +62,7 @@
 
 ### 📦 Installation / Установка
 
-1. Скачайте архив датапака `Lactose_Legacy_v2_RU.zip` (или `EN.zip`) из [Релизов](https://github.com/X1miyaStudio/Lactose/releases).
+1. Скачайте нужную legacy-сборку ([Modrinth EN](https://modrinth.com/datapack/lactose-intolerance) — `Lactose_Legacy_v2.0.1_EN.zip`, [Modrinth RU](https://modrinth.com/datapack/lactose-intolerance-ru) — `Lactose_Legacy_v2.0.1_RU.zip`) или выберите релиз в [GitHub Releases](https://github.com/X1miyaStudio/Lactose/releases).
 2. Поместите его в папку `<мир>/datapacks/`.
 3. Выполните команду `/reload` в игре.
 
@@ -69,7 +70,7 @@
 
 <div align="center">
 
-Minecraft Java Edition **1.16.5 – 1.20.4** · Namespace `lactose`  
+Minecraft Java Edition **1.16.5 – 1.20.4** · Namespace `lactose` · All Rights Reserved  
 © 2026 **[X1miyaStudio](https://github.com/X1miyaStudio)**
 
 </div>
