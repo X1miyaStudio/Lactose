@@ -35,5 +35,6 @@ Lactose превращает молоко в небольшую систему �
 
 - **Modrinth (Русская версия):** https://modrinth.com/datapack/lactose-intolerance-ru
 - **Modrinth (English):** https://modrinth.com/datapack/lactose-intolerance
+- **CurseForge (EN + RU):** https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics
 
 Minecraft Java Edition **1.20.5 – 26.3+** · Ванильный датапак · Namespace `lactose` · All Rights Reserved · X1miyaStudio
