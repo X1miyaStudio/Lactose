@@ -11,7 +11,7 @@ Milk becomes a survival system with reactions, tolerance, events, achievements, 
 - Environment: server-side required, client-side unsupported
 - Game version: Minecraft Java 1.21.11
 - Dependencies: none
-- License: MIT
+- License: All Rights Reserved
 
 ## Description
 
