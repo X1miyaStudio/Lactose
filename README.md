@@ -2,6 +2,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF88,100:062E1A&height=180&section=header&text=Lactose%20Intolerance&fontSize=42&fontColor=ffffff&fontAlignY=40" width="100%" alt="Lactose Header" />
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-English-00FF88?style=flat-square" alt="English" />
+  <a href="README_RU.md">
+    <img src="https://img.shields.io/badge/%D0%AF%D0%B7%D1%8B%D0%BA-%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-0D1117?style=flat-square&logo=googletranslate&logoColor=white" alt="Русская версия" />
+  </a>
+</p>
+
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.20.5_--_26.3+-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
 [![Legacy Branch](https://img.shields.io/badge/Legacy-1.16.5_--_1.20.4-blue?style=for-the-badge)](https://github.com/X1miyaStudio/Lactose/tree/legacy)
 [![Modrinth](https://img.shields.io/badge/Modrinth-EN_%2B_RU-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/datapack/lactose-intolerance)
@@ -10,8 +17,8 @@
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
 
 <p align="center">
-  <b>Полноценная система непереносимости лактозы в Minecraft Java.</b><br/>
-  Превращает обычное молоко в глубокую механику выживания с физиологическими реакциями, адаптацией и безлактозной кулинарией.
+  <b>A full lactose intolerance survival system for Minecraft Java Edition.</b><br/>
+  Turns ordinary milk into a deep survival mechanic with physiological reactions, tolerance adaptation, and lactose-free cooking.
 </p>
 
 </div>
@@ -19,23 +26,23 @@
 ---
 
 > [!TIP]
-> **Ищете версию для старых версий игры?**  
-> Исходный код датапака для классических версий Minecraft (**1.16.5 – 1.20.4**) доступен в официальной ветке [**`legacy`**](https://github.com/X1miyaStudio/Lactose/tree/legacy).
+> **Looking for older Minecraft versions?**  
+> Source code and builds for classic Minecraft (**1.16.5 – 1.20.4**) are available in the official [**`legacy`**](https://github.com/X1miyaStudio/Lactose/tree/legacy) branch.
 
 ---
 
-### ✨ Features / Особенности
+### ✨ Features
 
-- 👤 **Индивидуальная физиология** — раздельный расчёт реакций для каждого игрока как в одиночной игре, так и на сервере.
-- ⚡ **Динамическая адаптация** — постепенное привыкание, повышение толерантности при регулярном потреблении и штрафы за спам молоком.
-- 🌶 **Гибкие профили сложности** — режимы `soft`, `default`, `spicy` и соревновательный `challenge mode`.
-- 🎲 **Случайные события** — удачное усвоение (*lucky digestion*), молочные катастрофы (*dairy disaster*) и реакции коров-свидетелей.
-- 🏆 **Кастомное древо достижений** — уникальные испытания и внутриигровая статистика.
-- 🍰 **Альтернативная кулинария** — безлактозное молоко и безлактозный торт.
+- 👤 **Per-Player Physiology** — individual digestion state, tolerance, and reactions tracked independently in both singleplayer and multiplayer.
+- ⚡ **Dynamic Adaptation** — gradual adaptation builds tolerance over time, while spamming milk increases severity.
+- 🌶 **Flexible Difficulty Profiles** — `soft`, `default`, and `spicy` modes plus competitive `challenge mode`.
+- 🎲 **Random Events** — *lucky digestion*, *dairy disaster*, and reactions from witnessing cows.
+- 🏆 **Custom Advancement Tree** — unique milestones and in-game player statistics.
+- 🍰 **Lactose-Free Alternatives** — craftable lactose-free milk and lactose-free cake.
 
 ---
 
-### 🥣 Crafting / Крафты
+### 🥣 Crafting
 
 <div align="center">
 
@@ -43,29 +50,29 @@
 
 </div>
 
-* **Безлактозное молоко:** крафтится из ведра молока, бутылочки мёда, пшеницы и сахара.
-* **Безлактозный торт:** собирается в верстаке по стандартной раскладке торта с использованием трёх ведер безлактозного молока.
+* **Lactose-Free Milk:** crafted from a milk bucket, honey bottle, wheat, and sugar.
+* **Lactose-Free Cake:** uses the classic cake crafting pattern with three buckets of lactose-free milk at a normal crafting table.
 
 ---
 
-### ⚙️ Main Commands / Основные команды
+### ⚙️ Main Commands
 
-| Команда | Описание |
+| Command | Description |
 |---|---|
-| `/function lactose:config/soft` | Мягкий режим реакций |
-| `/function lactose:config/default` | Стандартная сбалансированная сложность |
-| `/function lactose:config/spicy` | Хардкорный режим |
-| `/function lactose:config/challenge_on` | Включение режима испытания |
-| `/function lactose:stats/show` | Просмотр текущей статистики переносимости |
-| `/function lactose:admin/help` | Справка администратора |
-| `/function lactose:uninstall` | Корректное удаление данных датапака |
+| `/function lactose:config/soft` | Soft reaction profile |
+| `/function lactose:config/default` | Default balanced difficulty |
+| `/function lactose:config/spicy` | Hardcore reaction profile |
+| `/function lactose:config/challenge_on` | Enable competitive challenge mode |
+| `/function lactose:stats/show` | View your current tolerance statistics |
+| `/function lactose:admin/help` | Administrator command reference |
+| `/function lactose:uninstall` | Cleanly remove all datapack scoreboards and data |
 
 ---
 
-### 📦 Installation / Установка
+### 📦 Installation
 
-1. Скачайте нужную версию датапака ([Modrinth (EN + RU)](https://modrinth.com/datapack/lactose-intolerance) — `Lactose_v2.0.1_EN.zip` / `Lactose_v2.0.1_RU.zip`, [CurseForge](https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics) — EN + RU; также доступны [Legacy-сборки для 1.16.5 – 1.20.4](https://github.com/X1miyaStudio/Lactose/tree/legacy)) и поместите архив в папку `<world>/datapacks/`.
-2. Выполните команду `/reload` в игре (или перезапустите мир).
+1. Download the build matching your language ([Modrinth (EN + RU)](https://modrinth.com/datapack/lactose-intolerance) — `Lactose_v2.0.1_EN.zip` / `Lactose_v2.0.1_RU.zip`, or [CurseForge](https://www.curseforge.com/minecraft/data-packs/lactose-digestion-milk-survival-mechanics); [Legacy builds for 1.16.5 – 1.20.4](https://github.com/X1miyaStudio/Lactose/tree/legacy) are also available) and place the ZIP in `<world>/datapacks/`.
+2. Run `/reload` in-game (or rejoin the world).
 
 ---
 
